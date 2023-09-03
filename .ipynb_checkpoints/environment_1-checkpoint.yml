@@ -1,0 +1,9 @@
+name: env_1
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - jupyterlab
+  - matplotlib
