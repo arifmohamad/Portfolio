@@ -1,4 +1,55 @@
-.venv/
-*.pyc
+# Byte-compiled / optimized / DLL files
+*.py[cod]
 *.pyo
+*.pyd
 __pycache__/
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+*.cover
+coverage.xml
+*.cover
+
+# MyPy
+.mypy_cache/
+
+# Test & Coverage reports
+.tox/
+.nox/
+.coverage
+nosetests.xml
+coverage.xml
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# IDE & Editor directories
+.vscode/
+.idea/
+*.sublime-workspace
+*.iml
+
+# OS generated files
+.DS_Store
+*.swp
