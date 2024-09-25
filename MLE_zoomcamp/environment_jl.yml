@@ -1,0 +1,23 @@
+name: jl
+channels:
+- default
+- conda-forge
+dependencies:
+# Jupyter
+- jupyterlab
+#- nbconvert
+#- widgetsnbextension
+# Python Kernel
+- nodejs
+- ipykernel
+- ipywidgets>=7.7
+- jupyterlab_widgets
+- python
+- pip
+- plotly>=5.8
+- jupyterlab_code_formatter
+- jupyterlab-git=0.34.0
+- jupyterlab_execute_time
+- pip:
+    - black
+    - autopep8
