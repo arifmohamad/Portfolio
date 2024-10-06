@@ -3,7 +3,7 @@
 # build_env.sh
 
 # Step 1: Create a virtual environment
-ENV_NAME="mle-zoomcamp-env"
+ENV_NAME="venv"
 
 # Check if the environment already exists, if not, create it
 if [ ! -d "$ENV_NAME" ]; then
@@ -28,6 +28,6 @@ fi
 # Step 4: Confirm installation
 pip freeze
 
-# Step 5: Deactivate the environment
-echo "Deactivating the environment."
-deactivate
+# Step 5: creating jupyter kernel
+
+python3 -m ipykernel install --user --name=venv-kernel
